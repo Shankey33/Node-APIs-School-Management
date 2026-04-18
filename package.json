@@ -1,0 +1,44 @@
+{
+  "name": "school-management-api",
+  "version": "1.0.0",
+  "description": "Production-ready School Management REST API built with Node.js, Express, MySQL, and Zod",
+  "main": "server.ts",
+  "scripts": {
+    "start": "npx ts-node server.ts",
+    "dev": "nodemon server.ts",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "school",
+    "management",
+    "api",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "mysql2": "^3.10.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
