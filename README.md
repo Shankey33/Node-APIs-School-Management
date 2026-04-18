@@ -14,6 +14,7 @@
 
 ## ✨ Features
 
+- You can run postman tests given in repo directly, everything is configured, just start the backend by visiting it.
 -  Add school records with geo-coordinates
 -  List schools sorted by proximity (Haversine formula)
 -  Input validation with **Zod** (body + query params)
